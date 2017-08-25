@@ -20,7 +20,7 @@
             <br />
             <asp:Button ID="addButton" runat="server" OnClick="addButton_Click" Text="Add" />
 &nbsp;&nbsp;&nbsp;
-            <asp:Button ID="retrieveButton" runat="server" Text="Retrieve" />
+            <asp:Button ID="retrieveButton" runat="server" OnClick="retrieveButton_Click" Text="Retrieve" />
             <br />
             <br />
             <asp:Label ID="resultLabel" runat="server"></asp:Label>
