@@ -23,7 +23,8 @@ namespace DevUCSharpCS_ASP_021
             values[3] = TextBox4.Text;
             values[4] = TextBox5.Text;
 
-            resultLabel.Text = values[2];
+            //resultLabel.Text = values[2];
+            resultLabel.Text = values.Length.ToString();
         }
     }
 }
