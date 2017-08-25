@@ -15,10 +15,10 @@
             <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
             <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
-            <asp:TextBox ID="TextBox5" runat="server" OnTextChanged="TextBox5_TextChanged"></asp:TextBox>
+            <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
             <br />
             <br />
-            <asp:Button ID="addButton" runat="server" Text="Add" />
+            <asp:Button ID="addButton" runat="server" OnClick="addButton_Click" Text="Add" />
 &nbsp;&nbsp;&nbsp;
             <asp:Button ID="retrieveButton" runat="server" Text="Retrieve" />
             <br />
